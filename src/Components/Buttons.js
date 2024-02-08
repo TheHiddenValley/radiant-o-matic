@@ -10,7 +10,7 @@ const Buttons = ({ onSelectDir, onSelectItem, alpacaState }) => {
   return (
     <div className="right">
       <div className="feature-control">
-        <h2 className="feature-btn-header">ACCESSORISE THE ALPACA'S</h2>
+        <h2 className="feature-btn-header">Trait Category</h2>
         <div className="feature-btn-wrapper">
           {alpacaState.map((feature, index) => (
             <button
@@ -29,7 +29,7 @@ const Buttons = ({ onSelectDir, onSelectItem, alpacaState }) => {
       </div>
 
       <div className="style-control">
-        <h2 className="style-btn-header">STYLES</h2>
+        <h2 className="style-btn-header">Trait Selection</h2>
         <div className="style-btn-wrapper">
           {items
             ? items.map((item, index) => (
