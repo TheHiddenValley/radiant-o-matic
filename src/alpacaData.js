@@ -2,7 +2,7 @@ const alpacaData = [
   {
     id: 0,
     label: "Background",
-    directory: "background",
+    directory: "Background",
     selected: true,
     items: [
       { id: 1, label: "RAD 1", filename: "Rad1", selected: true },
@@ -37,7 +37,7 @@ const alpacaData = [
   {
     id: 2,
     label: "Eyes",
-    directory: "eyes",
+    directory: "Eyes",
     selected: false,
     items: [
       { id: 0, label: "Glare", filename: "Glare", selected: true },
