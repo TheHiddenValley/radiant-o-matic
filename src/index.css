@@ -60,46 +60,46 @@ code {
   border-radius: 3px;
 }
 
-.alpaca-accessories {
+.alpaca-Special {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
 
-.alpaca-backgrounds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.alpaca-ears {
+.alpaca-Background {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
-.alpaca-eyes {
+.alpaca-Mouth {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 3;
 }
 
-.alpaca-hair {
+.alpaca-Head {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 9;
 }
 
-.alpaca-leg {
+.alpaca-Eyes {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 4;
+}
+
+.alpaca-Skin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .alpaca-mouth {
@@ -107,20 +107,6 @@ code {
   top: 0;
   left: 0;
   z-index: 2;
-}
-
-.alpaca-neck {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.alpaca-nose {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .feature-control {
