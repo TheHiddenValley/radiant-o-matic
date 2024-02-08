@@ -1,8 +1,8 @@
 const alpacaData = [
   {
     id: 0,
-    label: "Backgrounds",
-    directory: "backgrounds",
+    label: "Background",
+    directory: "background",
     selected: true,
     items: [
       { id: 1, label: "RAD 1", filename: "Rad1", selected: true },
