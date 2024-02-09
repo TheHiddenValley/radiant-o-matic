@@ -5,7 +5,7 @@ Mix and match traits to generate the PFP that you want.
 ## IMPORTANT - ENSURE TRAIT IMAGE SIZE IS 1600 X 1600 but on a 32 x 32 canvas.
 
 ## Artists Instructions on uploading new traits
-1. Craate
+1. Create a Pull Request
 2. Go to (https://github.com/TheHiddenValley/radiant-o-matic/tree/main/src/alpaca).
 3. Go to the folder of that trait category.
 4. Upload the image by click on add file and drag drop followed by pressing submit.
