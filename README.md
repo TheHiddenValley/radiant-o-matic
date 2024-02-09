@@ -1,23 +1,19 @@
-# Alpaca image generator website
+# Radiant o Matic
 
-This is an open source project from [DevProjects](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8). This project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, I learnt how to create an image generator website that allows users to generate, combine, and download images.
+Mix and match traits to generate the PFP that you want.
 
-## Tech/framework used
+## Artists Instructions on uploading new traits
+1. Go to (https://github.com/TheHiddenValley/radiant-o-matic/tree/main/src/alpaca).
+2. Upload images into the correct folder.
+3. IMPORTANT - ENSURE IMAGE SIZE IS 1600 X 1600 but on a 32 x 32 canvas.
+4. After uploading, go to (https://github.com/TheHiddenValley/radiant-o-matic/blob/main/src/alpacaData.js) and update what you uploaded.
 
-Built with ReactJS, CSS and Merge Images Library
+To do step 4:
+1. See which category your new trait belongs to
+2. Copy and paste a new line below the last trait in that category
+3. For id: 0, -- Just increase by 1
+4. For label, -- Choose what you want your trait to be called
+5. For filename, -- This will be the exact name (case sensitive) of your file without the .png
+6. For selected, -- Put this as false
 
-## Screenshots and demo
-
-![image](https://user-images.githubusercontent.com/84178696/201708267-3ff9089f-d2e1-4fcb-89e5-d21b7700c49d.png)
-
-### [Click to view Live Demo](https://alpaca-image-generator-beta.vercel.app/)
-
-## Problems and Thought Process
-
-Like most projects, I ran into a few bumps along the way. One particular one was in rendering the styles buttons from the data file I had setup, as they were from a nested array under the buttons for the features.
-
-The biggest obsatcle I encountered during this project was maintaining the state for all the components throughout the entire React app. This was my first interactive React project that allowed interaction from the user, so I had a tough but rewarding time implementing the state using the useState hook and props to modify the setup file and render the components accordingly.
-
-## Leassons Learned
-
-I could spend all day describing the lessons I learnt while working on this project, but the most important ones involved my newfound understanding of the useState hook and using external libraries. I also learnt a lot about code structure and modifying Javascript objects in React.
+Done!
