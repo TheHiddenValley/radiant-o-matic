@@ -73,12 +73,12 @@ function App() {
   };
 
   const downloadImage = () => {
-    // const alpacaPreview = document.querySelector(".alpaca");
+    // const Preview = document.querySelector(".alpaca");
     // alpacaPreview.style.width = "878px";
     const alpacaCanvasNode = document.getElementById("alpaca");
     toPng(alpacaCanvasNode)
       .then((dataUrl) => {
-        download(dataUrl, "my-alpaca.png");
+        download(dataUrl, "radiant.png");
         // alpacaPreview.style.width = "455px";
       })
       .catch((err) => {
