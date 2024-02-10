@@ -54,10 +54,11 @@ const alpacaData = [
       { id: 2, label: "Gladiator", filename: "Gladiator", selected: false },
       { id: 3, label: "Spiky", filename: "Spiky", selected: false },
       { id: 4, label: "Quiff", filename: "quiff", selected: false },
-      { id: 5, label: "Top hat", filename: "afro", selected: false }
+      { id: 5, label: "Top hat", filename: "top hat", selected: false }
       { id: 6, label: "Short Hair", filename: "short hair", selected: false },
       { id: 7, label: "Hat", filename: "hat", selected: false },
       { id: 8, label: "Long hair", filename: "long hair", selected: false },
+      { id: 9, label: "Afro", filename: "afro", selected: false }, 
     ],
   },
   {
