@@ -28,6 +28,8 @@ const alpacaData = [
     items: [
       { id: 0, label: "Glare", filename: "Glare", selected: true },
       { id: 1, label: "Eyepatch", filename: "Eyepatch", selected: false },
+      { id: 2, label: "Fee Mask", filename: "fee mask", selected: false },
+      { id: 3, label: "Fee Sunglasses", filename: "fee sunglasses", selected: false },
     ],
   },
   {
