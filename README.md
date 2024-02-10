@@ -15,7 +15,7 @@ To do step 5:
 1. See which category your new trait belongs to
 2. Copy and paste a new line below the last trait in that category
 3. For id: 0, -- Just increase by 1
-4. For label, -- Choose what you want your trait to appear as
+4. For label, -- This will be the name of the trait that appears
 5. For filename, -- This will be the exact name (case sensitive) of your file without the .png
 6. For selected, -- Put this as false
 
