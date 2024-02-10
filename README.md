@@ -11,7 +11,7 @@ Mix and match traits to generate the PFP that you want.
 4. Upload the image by click on add file and drag drop followed by pressing submit.
 5. After uploading, go to (https://github.com/TheHiddenValley/radiant-o-matic/blob/main/src/alpacaData.js) and update what you uploaded.
 
-To do step 4:
+To do step 5:
 1. See which category your new trait belongs to
 2. Copy and paste a new line below the last trait in that category
 3. For id: 0, -- Just increase by 1
