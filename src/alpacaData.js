@@ -30,6 +30,9 @@ const alpacaData = [
       { id: 1, label: "Eyepatch", filename: "Eyepatch", selected: false },
       { id: 2, label: "Fee Mask", filename: "fee mask", selected: false },
       { id: 3, label: "Fee Sunglasses", filename: "fee sunglasses", selected: false },
+      { id: 4, label: "mole", filename: "mole", selected: false },
+      { id: 5, label: "sus", filename: "sus", selected: false },
+      { id: 6, label: "tattoo", filename: "tattoo", selected: false },
     ],
   },
   {
@@ -41,6 +44,10 @@ const alpacaData = [
       { id: 0, label: "Shaved", filename: "Shaved", selected: true },
       { id: 1, label: "Beard", filename: "Beard", selected: false },
       { id: 2, label: "Moustache", filename: "Moustache", selected: false },
+      { id: 3, label: "smile", filename: "smile", selected: false },
+      { id: 4, label: "cig", filename: "cig", selected: false },
+      { id: 5, label: "rad", filename: "rad", selected: false },
+      { id: 6, label: "goatee", filename: "goatee", selected: false },
     ],
   },
   {
@@ -59,6 +66,11 @@ const alpacaData = [
       { id: 7, label: "Hat", filename: "hat", selected: false },
       { id: 8, label: "Long hair", filename: "long hair", selected: false },
       { id: 9, label: "Afro", filename: "afro", selected: false }, 
+      { id: 10, label: "rascal", filename: "rascal", selected: false },
+      { id: 11, label: "radgarl", filename: "radgarl", selected: false },
+      { id: 12, label: "blondie", filename: "blondie", selected: false },
+      { id: 13, label: "dracula", filename: "dracula", selected: false },
+      { id: 14, label: "kolomb", filename: "kolomb", selected: false },
     ],
   },
   {
@@ -70,6 +82,8 @@ const alpacaData = [
       { id: 0, label: "None", filename: "None", selected: true },
       { id: 1, label: "Alien", filename: "Alien", selected: false },
       { id: 2, label: "Batman", filename: "Batman", selected: false },
+      { id: 3, label: "cousin", filename: "cousin", selected: false },
+      { id: 4, label: "haida", filename: "haida", selected: false },
     ],
   },
 
