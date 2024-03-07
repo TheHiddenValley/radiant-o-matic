@@ -73,19 +73,6 @@ const alpacaData = [
       { id: 14, label: "kolomb", filename: "kolomb", selected: false },
     ],
   },
-  {
-    id: 5,
-    label: "Special",
-    directory: "Special",
-    selected: false,
-    items: [
-      { id: 0, label: "None", filename: "None", selected: true },
-      { id: 1, label: "Alien", filename: "Alien", selected: false },
-      { id: 2, label: "Batman", filename: "Batman", selected: false },
-      { id: 3, label: "cousin", filename: "cousin", selected: false },
-      { id: 4, label: "haida", filename: "haida", selected: false },
-    ],
-  },
 
 ];
 
