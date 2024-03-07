@@ -36,7 +36,7 @@ const alpacaData = [
     ],
   },
     {
-    id: 4,
+    id: 3,
     label: "Head",
     directory: "Head",
     selected: false,
@@ -58,7 +58,7 @@ const alpacaData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     label: "Mouth",
     directory: "Mouth",
     selected: false,
