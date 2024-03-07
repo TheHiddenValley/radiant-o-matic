@@ -49,7 +49,7 @@ const alpacaData = [
       { id: 5, label: "Top hat", filename: "top hat", selected: false },
       { id: 6, label: "Short Hair", filename: "short hair", selected: false },
       { id: 7, label: "Hat", filename: "hat", selected: false },
-      { id: 8, label: "Long hair", filename: "long hair", selected: false },
+      { id: 8, label: "Long Hair", filename: "long hair", selected: false },
       { id: 9, label: "Afro", filename: "afro", selected: false }, 
       { id: 10, label: "Rascal", filename: "rascal", selected: false },
       { id: 11, label: "Radgarl", filename: "radgarl", selected: false },
