@@ -37,6 +37,21 @@ const alpacaData = [
   },
     {
     id: 3,
+    label: "Mouth",
+    directory: "Mouth",
+    selected: false,
+    items: [
+      { id: 0, label: "Shaved", filename: "Shaved", selected: true },
+      { id: 1, label: "Beard", filename: "Beard", selected: false },
+      { id: 2, label: "Moustache", filename: "Moustache", selected: false },
+      { id: 3, label: "Smile", filename: "smile", selected: false },
+      { id: 4, label: "Cigarette", filename: "cig", selected: false },
+      { id: 5, label: "Rad", filename: "rad", selected: false },
+      { id: 6, label: "Goatee", filename: "goatee", selected: false },
+    ],
+  },
+  {
+    id: 4,
     label: "Head",
     directory: "Head",
     selected: false,
@@ -55,21 +70,6 @@ const alpacaData = [
       { id: 11, label: "Radgarl", filename: "radgarl", selected: false },
       { id: 12, label: "Blondie", filename: "blondie", selected: false },
       { id: 13, label: "Dracula", filename: "dracula", selected: false },
-    ],
-  },
-  {
-    id: 4,
-    label: "Mouth",
-    directory: "Mouth",
-    selected: false,
-    items: [
-      { id: 0, label: "Shaved", filename: "Shaved", selected: true },
-      { id: 1, label: "Beard", filename: "Beard", selected: false },
-      { id: 2, label: "Moustache", filename: "Moustache", selected: false },
-      { id: 3, label: "Smile", filename: "smile", selected: false },
-      { id: 4, label: "Cigarette", filename: "cig", selected: false },
-      { id: 5, label: "Rad", filename: "rad", selected: false },
-      { id: 6, label: "Goatee", filename: "goatee", selected: false },
     ],
   },
 ];
