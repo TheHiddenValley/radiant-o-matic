@@ -58,7 +58,7 @@ const alpacaData = [
     items: [
       { id: 0, label: "Bald", filename: "Bald", selected: true },
       { id: 1, label: "Cool Hat", filename: "CoolHat", selected: false },
-      { id: 2, label: "Gladiator", filename: "Gladiator", selected: false },
+      { id: 14, label: "kolomb", filename: "kolomb", selected: false },
       { id: 3, label: "Spiky", filename: "Spiky", selected: false },
       { id: 4, label: "Quiff", filename: "quiff", selected: false },
       { id: 5, label: "Top hat", filename: "top hat", selected: false },
@@ -70,7 +70,6 @@ const alpacaData = [
       { id: 11, label: "radgarl", filename: "radgarl", selected: false },
       { id: 12, label: "blondie", filename: "blondie", selected: false },
       { id: 13, label: "dracula", filename: "dracula", selected: false },
-      { id: 14, label: "kolomb", filename: "kolomb", selected: false },
     ],
   },
 
