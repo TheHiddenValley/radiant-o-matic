@@ -15,9 +15,9 @@ const alpacaData = [
     directory: "Skin",
     selected: false,
     items: [
-      { id: 0,  label: "Mid", filename: "Mid", selected: true },
-      { id: 1, label: "Pasty", filename: "Pasty", selected: false },
-      { id: 2, label: "Tanned", filename: "Tanned", selected: false },
+      { id: 0,  label: "Mid", filename: "mid", selected: true },
+      { id: 1, label: "Pasty", filename: "pasty", selected: false },
+      { id: 2, label: "Tanned", filename: "tanned", selected: false },
     ],
   },
   {
@@ -33,21 +33,6 @@ const alpacaData = [
       { id: 4, label: "Mole", filename: "mole", selected: false },
       { id: 5, label: "Sus", filename: "sus", selected: false },
       { id: 6, label: "Tattoo", filename: "tattoo", selected: false },
-    ],
-  },
-    {
-    id: 4,
-    label: "Mouth",
-    directory: "Mouth",
-    selected: false,
-    items: [
-      { id: 0, label: "Shaved", filename: "Shaved", selected: true },
-      { id: 1, label: "Beard", filename: "Beard", selected: false },
-      { id: 2, label: "Moustache", filename: "Moustache", selected: false },
-      { id: 3, label: "Smile", filename: "smile", selected: false },
-      { id: 4, label: "Cigarette", filename: "cig", selected: false },
-      { id: 5, label: "Rad", filename: "rad", selected: false },
-      { id: 6, label: "Goatee", filename: "goatee", selected: false },
     ],
   },
   {
@@ -70,6 +55,21 @@ const alpacaData = [
       { id: 11, label: "Radgarl", filename: "radgarl", selected: false },
       { id: 12, label: "Blondie", filename: "blondie", selected: false },
       { id: 13, label: "Dracula", filename: "dracula", selected: false },
+    ],
+  },
+      {
+    id: 4,
+    label: "Mouth",
+    directory: "Mouth",
+    selected: false,
+    items: [
+      { id: 0, label: "Shaved", filename: "Shaved", selected: true },
+      { id: 1, label: "Beard", filename: "Beard", selected: false },
+      { id: 2, label: "Moustache", filename: "Moustache", selected: false },
+      { id: 3, label: "Smile", filename: "smile", selected: false },
+      { id: 4, label: "Cigarette", filename: "cig", selected: false },
+      { id: 5, label: "Rad", filename: "rad", selected: false },
+      { id: 6, label: "Goatee", filename: "goatee", selected: false },
     ],
   },
 ];
