@@ -5,12 +5,14 @@ body {
   font-family: "Jost", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2b2c34;
-  background-color: #fffffe;
+  color: #FEF8E2;
+  background-color: #0F0E0C;
+  background-image: url('../src/background.png');
+  background-attachment: scroll;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: joyxstix_monospace, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -145,11 +147,10 @@ code {
 .feature-btn {
   border: none;
   padding: 12px 30px;
-  background-color: #fffffe;
-  color: #2b2c34;
+  background-color: #FEF8E260;
+  color:  #FEF8E2;
   margin: 5px 5px;
-  border-radius: 100px;
-  border: 0.15em solid #2b2c34;
+  border: 0.15em solid  #FCE184;
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
   font-size: 15px;
@@ -161,11 +162,10 @@ code {
 .style-btn {
   border: none;
   padding: 12px 30px;
-  background-color: #fffffe;
-  color: #2b2c34;
+  background-color: #FEF8E260;
+  color:  #FEF8E2;
   margin: 5px 5px;
-  border-radius: 100px;
-  border: 0.15em solid #2b2c34;
+  border: 0.15em solid  #FCE184;
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
   font-size: 15px;
@@ -177,19 +177,17 @@ code {
 .feature-btn:hover,
 .feature-btn_selected {
   cursor: pointer;
-  color: #000000;
-  background-color: #6246ea;
-  color: #fffffe;
-  border: 0.15em solid #6246ea;
+  color:  #FCE184;
+  background-color: #FCE18470;
+  border: 0.15em solid #FCE184;
 }
 
 .style-btn:hover,
 .style-btn_selected {
   cursor: pointer;
-  color: #000000;
-  background-color: #6246ea;
-  color: #fffffe;
-  border: 0.15em solid #6246ea;
+  color:  #FCE184;
+  background-color: #FCE18470;
+  border: 0.15em solid #FCE184;
 }
 
 .controls-btns {
@@ -206,10 +204,10 @@ code {
   display: inline-block;
   outline: 0;
   cursor: pointer;
-  border: 0.15em solid #2b2c34;
+  border: 0.15em solid #FCE184;
   border-radius: 3px;
-  color: #fffffe;
-  background: #2b2c34;
+  color: #FEF8E2;
+  background: #FEF8E270;
   font-family: "Jost", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -221,19 +219,19 @@ code {
 }
 
 .randomize-btn:hover {
-  color: #fffffe;
-  border: 0.15em solid #e45858;
-  background: #e45858;
+  color: #FCE184;
+  border: 0.15em solid #FCE184;
+  background: #FCE18470;
 }
 
 .download-btn {
   display: inline-block;
   outline: 0;
   cursor: pointer;
-  border: 0.15em solid #2b2c34;
+  border: 0.15em solid #FCE184;
   border-radius: 3px;
-  color: #fffffe;
-  background: #2b2c34;
+  color: #FEF8E2;
+  background: #FEF8E270;
   font-family: "Jost", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -245,9 +243,9 @@ code {
 }
 
 .download-btn:hover {
-  color: #fffffe;
-  border: 0.15em solid #e45858;
-  background: #e45858;
+  color: #FCE184;
+  border: 0.15em solid #FCE184;
+  background: #FCE18470;
 }
 
 @media only screen and (max-width: 600px) {
