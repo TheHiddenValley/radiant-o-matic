@@ -15,9 +15,9 @@ const alpacaData = [
     directory: "Skin",
     selected: false,
     items: [
-      { id: 0,  label: "Mid", filename: "mid", selected: true },
-      { id: 1, label: "Pasty", filename: "pasty", selected: false },
-      { id: 2, label: "Tanned", filename: "tanned", selected: false },
+      { id: 0,  label: "Mid", filename: "Mid", selected: true },
+      { id: 1, label: "Pasty", filename: "Pasty", selected: false },
+      { id: 2, label: "Tanned", filename: "Tanned", selected: false },
     ],
   },
   {
