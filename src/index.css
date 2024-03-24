@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+@font-face {
+  font-family: 'Joystix';
+  src: url('./joystix_monospace.ttf') format('truetype');
+}
 
 body {
   margin: 0;
-  font-family: "Jost", sans-serif;
+  font-family: 'Joystix', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #FEF8E2;
@@ -39,14 +43,18 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 30px 0;
 }
 
 .header {
+  font-size: 1em;
   font-weight: 700;
-  font-size: 3.3em;
-  margin: 30px 0 10px 0;
+  margin: 5px 0 5px 0;
   text-align: center;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .alpaca {
@@ -80,21 +88,21 @@ code {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: 5;
 }
 
 .alpaca-Head {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 4;
 }
 
 .alpaca-Eyes {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 4;
+  z-index: 3;
 }
 
 .alpaca-Skin {
@@ -104,25 +112,21 @@ code {
   z-index: 2;
 }
 
-.alpaca-mouth {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
 .feature-control {
   margin-left: 0px;
+  width: 80%;
 }
 
 .feature-btn-header {
   font-size: 20px;
   margin: 0 0 10px 0;
+  
 }
 
 .style-control {
   margin-left: 0px;
   margin-top: 50px;
+  width:80%;
 }
 
 .style-btn-header {
@@ -134,14 +138,14 @@ code {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 590px;
+  width: 100%;
 }
 
 .style-btn-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 580px;
+  width: 100%;
 }
 
 .feature-btn {

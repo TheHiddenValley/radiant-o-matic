@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Joystix';
+  src: url('./joystix_monospace.ttf') format('truetype');
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +19,15 @@
 }
 
 .App-header {
+  font-family: 'Joystix', sans-serif;
   background-color: #FCE18490;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: #FEF8E2;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-link {
@@ -35,4 +41,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  gap: 80px;
+  background-color:#0F0E0C;
+  align-items: center;
+  border-color: #fce184;
+  border-width: 1px;
+  border-style: solid;
+  border-top:transparent;
+}
+
+.headcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1em;
+  background-color:#0F0E0C;
+  align-items: center;
+  border-color: #fce184;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
 }

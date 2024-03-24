@@ -88,7 +88,9 @@ function App() {
 
   return (
     <div>
+      <div className="headcontainer">
       <Header />
+      </div>
       <div className="container">
         <div className="left">
           <Preview alpacaState={state} />
