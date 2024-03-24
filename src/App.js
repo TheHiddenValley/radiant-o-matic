@@ -1,3 +1,4 @@
+// App.js
 import "./App.css";
 import Header from "./Components/Header";
 import Preview from "./Components/Preview";
@@ -73,13 +74,13 @@ function App() {
   };
 
   const downloadImage = () => {
-    // const Preview = document.querySelector(".alpaca");
-    // alpacaPreview.style.width = "878px";
+    const alpacaPreview = document.querySelector(".alpaca");
+    alpacaPreview.style.width = "1600px";
     const alpacaCanvasNode = document.getElementById("alpaca");
     toPng(alpacaCanvasNode)
       .then((dataUrl) => {
         download(dataUrl, "radiant.png");
-        // alpacaPreview.style.width = "455px";
+        alpacaPreview.style.width = "455px";
       })
       .catch((err) => {
         console.log(err);
@@ -89,14 +90,13 @@ function App() {
   return (
     <div>
       <div className="headcontainer">
-      <Header />
+        <Header />
       </div>
       <div className="container">
         <div className="left">
           <Preview alpacaState={state} />
           <Controls onRandomize={randomizeImage} onDownload={downloadImage} />
         </div>
-        {/* <pre>{JSON.strzingify(state, null, 2)}</pre> */}
         <div className="right">
           <Buttons
             onSelectDir={handleSelectDir}
