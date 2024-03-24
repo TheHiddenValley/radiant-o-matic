@@ -114,7 +114,6 @@ code {
 
 .feature-control {
   margin-left: 0px;
-  width: 80%;
 }
 
 .feature-btn-header {
@@ -126,7 +125,6 @@ code {
 .style-control {
   margin-left: 0px;
   margin-top: 50px;
-  width:80%;
 }
 
 .style-btn-header {
@@ -135,17 +133,11 @@ code {
 }
 
 .feature-btn-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  width: 590px;
 }
 
 .style-btn-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  width: 590px;
 }
 
 .feature-btn {
@@ -277,7 +269,7 @@ code {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 680px) {
   .alpaca {
     width: 300px;
   }
@@ -296,8 +288,39 @@ code {
     padding: 0.5em 1em;
   }
 
-  .feature-btn-wrapper,
-  .style-btn-wrapper {
-    width: 300px;
-  }
+.feature-control {
+  margin-left: 0px;
+  width: 80%;
+}
+
+.feature-btn-header {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  
+}
+
+.style-control {
+  margin-left: 0px;
+  margin-top: 50px;
+  width:80%;
+}
+
+.style-btn-header {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.feature-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.style-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
 }
