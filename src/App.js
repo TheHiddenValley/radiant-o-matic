@@ -80,7 +80,7 @@ function App() {
     toPng(alpacaCanvasNode)
       .then((dataUrl) => {
         download(dataUrl, "radiant.png");
-        alpacaPreview.style.width = "455px";
+        alpacaPreview.style.width = "480px";
       })
       .catch((err) => {
         console.log(err);
